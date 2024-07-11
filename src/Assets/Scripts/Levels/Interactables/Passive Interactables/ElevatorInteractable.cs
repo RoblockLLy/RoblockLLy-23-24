@@ -21,6 +21,7 @@ public class ElevatorInteractable : PassiveInteractable {
     private int currentFloor = 0;
     private string toggleDirection = "up";
     private Vector3 originalPos;
+    private GameObject robot;
 
     void Start() {
         if (GameObject.FindGameObjectWithTag("Level Manager") != null) {
@@ -36,14 +37,23 @@ public class ElevatorInteractable : PassiveInteractable {
             if (Vector3.Distance(floorPos, transform.position) < 0.5f) {
                 transform.position = floorPos;
             } else if ((floorPos - transform.position).normalized == transform.up) {
+                if (robot != null) {
+                    robot.transform.Translate(transform.up * liftSpeed * Time.deltaTime);
+                }
                 transform.Translate(transform.up * liftSpeed * Time.deltaTime);
             } else {
+                if (robot != null) {
+                    robot.transform.Translate(-transform.up * liftSpeed * Time.deltaTime);
+                }
                 transform.Translate(-transform.up * liftSpeed * Time.deltaTime);
             }
         } else {
             if (Vector3.Distance(floorPos, transform.position) < 0.5f) {
                 transform.position = floorPos;
             } else {
+                if (robot != null) {
+                    robot.transform.Translate((floorPos - transform.position).normalized * liftSpeed * Time.deltaTime, Space.World);
+                }
                 transform.Translate((floorPos - transform.position).normalized * liftSpeed * Time.deltaTime, Space.World);
             }
         }
@@ -77,6 +87,19 @@ public class ElevatorInteractable : PassiveInteractable {
 
     public override void ResetInteractable() {
         currentFloor = 0;
+        toggleDirection = "up";
         transform.position = originalPos;
+    }
+
+    private void OnCollisionEnter(Collision collision) {
+        if (collision.collider.tag == "Robot") {
+            robot = collision.collider.gameObject;
+        }
+    }
+
+    private void OnCollisionExit(Collision collision) {
+        if (collision.collider.tag == "Robot") {
+            robot = null;
+        }
     }
 }

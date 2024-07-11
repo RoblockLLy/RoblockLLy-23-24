@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\EPH20\\Roblocklly_EPH\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\menus\\settingsmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\settingsmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\levels\\interactables\\passive interactables\\elevatorinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\interactables\\passive interactables\\elevatorinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|C:\\Users\\EPH20\\Roblocklly_EPH\\assets\\scripts\\menus\\levelcreatormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\levelcreatormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\levels\\managers\\levelcamerasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\managers\\levelcamerasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\levels\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|C:\\Users\\EPH20\\Roblocklly_EPH\\assets\\scripts\\levels\\builder\\levelexportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\builder\\levelexportmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|C:\\Users\\EPH20\\Roblocklly_EPH\\assets\\scripts\\levels\\builder\\genericblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\builder\\genericblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|C:\\Users\\EPH20\\Roblocklly_EPH\\assets\\scripts\\levels\\managers\\commsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\managers\\commsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|C:\\Users\\EPH20\\Roblocklly_EPH\\assets\\scripts\\persistance\\vaultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\persistance\\vaultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|C:\\Users\\EPH20\\Roblocklly_EPH\\assets\\scripts\\menus\\levelmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menus\\levelmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\levels\\builder\\movingplatformblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\builder\\movingplatformblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,19 +26,19 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SettingsMenuManager.cs",
-              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Menus\\SettingsMenuManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\SettingsMenuManager.cs",
-              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Menus\\SettingsMenuManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menus\\SettingsMenuManager.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAMwCwAAAB2AAAA",
+              "DocumentIndex": 1,
+              "Title": "LevelCamerasManager.cs",
+              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Managers\\LevelCamerasManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Managers\\LevelCamerasManager.cs",
+              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Managers\\LevelCamerasManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Levels\\Managers\\LevelCamerasManager.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAMwCMAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T13:17:10.439Z",
+              "WhenOpened": "2024-07-11T19:38:57.708Z",
               "EditorCaption": ""
             },
             {
@@ -65,83 +49,36 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Managers\\LevelManager.cs",
               "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Managers\\LevelManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Levels\\Managers\\LevelManager.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAEBVwFoAAAArAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAMwE8AAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T21:16:05.509Z",
+              "WhenOpened": "2024-07-11T19:19:40.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ElevatorInteractable.cs",
+              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Interactables\\Passive Interactables\\ElevatorInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Interactables\\Passive Interactables\\ElevatorInteractable.cs",
+              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Interactables\\Passive Interactables\\ElevatorInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Levels\\Interactables\\Passive Interactables\\ElevatorInteractable.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T19:03:09.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LevelExportManager.cs",
-              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Builder\\LevelExportManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Builder\\LevelExportManager.cs",
-              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Builder\\LevelExportManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Levels\\Builder\\LevelExportManager.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "MovingPlatformBlock.cs",
+              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Builder\\MovingPlatformBlock.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Builder\\MovingPlatformBlock.cs",
+              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Builder\\MovingPlatformBlock.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Levels\\Builder\\MovingPlatformBlock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T21:02:44.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GenericBlock.cs",
-              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Builder\\GenericBlock.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Builder\\GenericBlock.cs",
-              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Builder\\GenericBlock.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Levels\\Builder\\GenericBlock.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T21:00:20.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LevelCreatorManager.cs",
-              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Menus\\LevelCreatorManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\LevelCreatorManager.cs",
-              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Menus\\LevelCreatorManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menus\\LevelCreatorManager.cs",
-              "ViewState": "AQIAADEBAAAAAAAAAAAgwD8BAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T19:55:58.22Z",
+              "WhenOpened": "2024-07-11T19:26:56.734Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CommsManager.cs",
-              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Managers\\CommsManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Managers\\CommsManager.cs",
-              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Managers\\CommsManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Levels\\Managers\\CommsManager.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T15:20:23.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VaultManager.cs",
-              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Persistance\\VaultManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Persistance\\VaultManager.cs",
-              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Persistance\\VaultManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Persistance\\VaultManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T11:27:41.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LevelMenuManager.cs",
-              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Menus\\LevelMenuManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menus\\LevelMenuManager.cs",
-              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Menus\\LevelMenuManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menus\\LevelMenuManager.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:55:30.458Z"
             }
           ]
         }

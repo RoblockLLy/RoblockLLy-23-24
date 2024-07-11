@@ -120,9 +120,21 @@
         "type": "field_dropdown",
         "name": "COLOR",
         "options": [
-          ["%{BKY_RED}", "Red"],
+          ["%{BKY_BLACK}", "Black"],
           ["%{BKY_BLUE}", "Blue"],
+          ["%{BKY_BROWN}", "Brown"],
+          ["%{BKY_GRAY}", "Gray"],
           ["%{BKY_GREEN}", "Green"],
+          ["%{BKY_LIGHT_BLUE}", "Light Blue"],
+          ["%{BKY_LIGHT_GREEN}", "Light Green"],
+          ["%{BKY_LIGHT_ORANGE}", "Light Orange"],
+          ["%{BKY_LIGHT_RED}", "Light Red"],
+          ["%{BKY_ORANGE}", "Orange"],
+          ["%{BKY_PINK}", "Pink"],
+          ["%{BKY_PURPLE}", "Purple"],
+          ["%{BKY_RED}", "Red"],
+          ["%{BKY_TURQUOISE}", "Tuquoise"],
+          ["%{BKY_WHITE}", "White"],
           ["%{BKY_YELLOW}", "Yellow"]
         ]
       }

@@ -500,6 +500,8 @@
 "Assets/Third-Party/uBlockly/Assets/Source/Script/UGUIView/Views/LineGroupView.cs"
 "Assets/Third-Party/uBlockly/Assets/Source/Script/UGUIView/WorkspaceView.cs"
 "Assets/Third-Party/uBlockly/Assets/Source/Script/UGUIView/XmlView.cs"
+"Assets/WebGLCopyAndPaste/Scripts/AssemblySetup.cs"
+"Assets/WebGLCopyAndPaste/Scripts/WebGLCopyAndPaste.cs"
 -langversion:9.0
 /deterministic
 /optimize+

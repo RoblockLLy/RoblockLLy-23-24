@@ -49,6 +49,8 @@ extern void Event__ctor_mA5E77C0596952812A96703685523819CF50D71A0 (void);
 extern void Event_Finalize_m0882CB2E5E0C20C5C9669518C4DB5D95F840DAB7 (void);
 extern void Event_CopyFrom_m2F9B9704FBE156C5D58FF630F7968568C19821F5 (void);
 extern void Event_get_shift_mB8409DA839B09DC6137848E131A6DBE70BB9E70A (void);
+extern void Event_set_control_m2F6637D8E85BA34D63559AB7B0B07294AC522D44 (void);
+extern void Event_set_command_m6A8419B131A825E6072BE2023C267CA52EDD985F (void);
 extern void Event_get_current_mBD7135E10C392EAD61AC0A0D2489EF758C8A3FAD (void);
 extern void Event_set_current_mDB5FE546AFA00DDF6CC23C106CE076EBEF36BCB3 (void);
 extern void Event_get_isKey_mDA8FE1CC5E305BAF181E86A727173C9BE9A1B754 (void);
@@ -463,7 +465,7 @@ extern void TextSelectingUtilities_GetGraphicalLineEnd_mD956DB2F4EC24F3DE8906923
 extern void TextSelectingUtilities_Copy_m69701E12FFE465B70E677DCCCCF3148873A5FE0A (void);
 extern void TextSelectingUtilities_ClassifyChar_m887E3900015DB05F1EF0E5F4630748CCA5C3CD52 (void);
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m3791FADF6D0284BCC1AF6156A077038C2AA23055 (void);
-static Il2CppMethodPointer s_methodPointers[451] = 
+static Il2CppMethodPointer s_methodPointers[453] = 
 {
 	Event_get_rawType_mD7CD874F3C8DFD4DFB6237E79A7C3A484B33CE56,
 	Event_get_mousePosition_mD6D2DF45C75E6FADD415D27D0E93563DED37D9B9,
@@ -502,6 +504,8 @@ static Il2CppMethodPointer s_methodPointers[451] =
 	Event_Finalize_m0882CB2E5E0C20C5C9669518C4DB5D95F840DAB7,
 	Event_CopyFrom_m2F9B9704FBE156C5D58FF630F7968568C19821F5,
 	Event_get_shift_mB8409DA839B09DC6137848E131A6DBE70BB9E70A,
+	Event_set_control_m2F6637D8E85BA34D63559AB7B0B07294AC522D44,
+	Event_set_command_m6A8419B131A825E6072BE2023C267CA52EDD985F,
 	Event_get_current_mBD7135E10C392EAD61AC0A0D2489EF758C8A3FAD,
 	Event_set_current_mDB5FE546AFA00DDF6CC23C106CE076EBEF36BCB3,
 	Event_get_isKey_mDA8FE1CC5E305BAF181E86A727173C9BE9A1B754,
@@ -928,17 +932,17 @@ extern void ParentClipScope__ctor_m5251E311D308625C438134442CA69D75E872DCD4_Adju
 extern void ParentClipScope_Dispose_m39F5E11A8E9346D5ADE850A5A600A675589E786D_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[9] = 
 {
-	{ 0x06000035, EventInterests_get_wantsMouseMove_m4CE6AE73062DE1E37A138ED365FE4D8C7894B9AA_AdjustorThunk },
-	{ 0x06000036, EventInterests_set_wantsMouseMove_mFEA33E053185D63A19F60AA69E385C05CE795F0F_AdjustorThunk },
-	{ 0x06000037, EventInterests_get_wantsMouseEnterLeaveWindow_m5CC6DB8DAF1DEB0F7E8878B96A856F540E66840F_AdjustorThunk },
-	{ 0x06000038, EventInterests_set_wantsMouseEnterLeaveWindow_m5D73B54F5855E5BB5FE54AA2366A83A33982D313_AdjustorThunk },
-	{ 0x06000039, EventInterests_get_wantsLessLayoutEvents_m1BC017D5AC484596A2A9B05BF592B65CE2A00CDE_AdjustorThunk },
-	{ 0x0600003A, EventInterests_WantsEvent_mD34E2AD1F937EE03C9C29882672F400AD3C3E5B6_AdjustorThunk },
-	{ 0x0600003B, EventInterests_WantsLayoutPass_m403675D6BA834A05764A2C2558ECBCE90C8D066B_AdjustorThunk },
-	{ 0x06000069, ParentClipScope__ctor_m5251E311D308625C438134442CA69D75E872DCD4_AdjustorThunk },
-	{ 0x0600006A, ParentClipScope_Dispose_m39F5E11A8E9346D5ADE850A5A600A675589E786D_AdjustorThunk },
+	{ 0x06000037, EventInterests_get_wantsMouseMove_m4CE6AE73062DE1E37A138ED365FE4D8C7894B9AA_AdjustorThunk },
+	{ 0x06000038, EventInterests_set_wantsMouseMove_mFEA33E053185D63A19F60AA69E385C05CE795F0F_AdjustorThunk },
+	{ 0x06000039, EventInterests_get_wantsMouseEnterLeaveWindow_m5CC6DB8DAF1DEB0F7E8878B96A856F540E66840F_AdjustorThunk },
+	{ 0x0600003A, EventInterests_set_wantsMouseEnterLeaveWindow_m5D73B54F5855E5BB5FE54AA2366A83A33982D313_AdjustorThunk },
+	{ 0x0600003B, EventInterests_get_wantsLessLayoutEvents_m1BC017D5AC484596A2A9B05BF592B65CE2A00CDE_AdjustorThunk },
+	{ 0x0600003C, EventInterests_WantsEvent_mD34E2AD1F937EE03C9C29882672F400AD3C3E5B6_AdjustorThunk },
+	{ 0x0600003D, EventInterests_WantsLayoutPass_m403675D6BA834A05764A2C2558ECBCE90C8D066B_AdjustorThunk },
+	{ 0x0600006B, ParentClipScope__ctor_m5251E311D308625C438134442CA69D75E872DCD4_AdjustorThunk },
+	{ 0x0600006C, ParentClipScope_Dispose_m39F5E11A8E9346D5ADE850A5A600A675589E786D_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[451] = 
+static const int32_t s_InvokerIndices[453] = 
 {
 	7049,
 	7208,
@@ -977,6 +981,8 @@ static const int32_t s_InvokerIndices[451] =
 	7219,
 	5807,
 	6983,
+	5708,
+	5708,
 	10373,
 	10248,
 	6983,
@@ -1396,7 +1402,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_IMGUIModule_CodeGenModul
 const Il2CppCodeGenModule g_UnityEngine_IMGUIModule_CodeGenModule = 
 {
 	"UnityEngine.IMGUIModule.dll",
-	451,
+	453,
 	s_methodPointers,
 	9,
 	s_adjustorThunks,

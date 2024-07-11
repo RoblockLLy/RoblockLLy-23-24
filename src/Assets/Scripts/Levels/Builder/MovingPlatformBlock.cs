@@ -24,6 +24,7 @@ public class MovingPlatformBlock : GenericPassiveInteractable {
         switch (chosenOptions[index].optionTitle) {
             case "Color":
                 mainMesh.GetComponent<Renderer>().material = possibleMaterials.Find(possibleMaterial => possibleMaterial.name == value);
+                GetComponent<Renderer>().material = possibleMaterials.Find(possibleMaterial => possibleMaterial.name == value);
                 break;
             case "Floor count":
                 GetComponent<ElevatorInteractable>().floorCount = int.Parse(value);

@@ -119,6 +119,7 @@
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\Dialogs\FieldDialogs\FieldDialog.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Core\Field\FieldImage.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\Views\InputView.cs" />
+    <Compile Include="Assets\WebGLCopyAndPaste\Scripts\AssemblySetup.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Core\Code\Names.cs" />
     <Compile Include="Assets\Scripts\Levels\Builder\MovingPlatformBlock.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\Views\FieldView.cs" />
@@ -194,6 +195,7 @@
     <Compile Include="Assets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\CodeDB\CSharp\Interpreters\Procedure_CSharp.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\UGUIView\BlocklyUI.cs" />
+    <Compile Include="Assets\WebGLCopyAndPaste\Scripts\WebGLCopyAndPaste.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Core\Code\Cmdtor.cs" />
     <Compile Include="Assets\Third-Party\uBlockly\Assets\Source\Script\Core\Field\FieldAngle.cs" />
     <Compile Include="Assets\Scripts\Sensors\UltrasoundSensorManager.cs" />
