@@ -1,5 +1,5 @@
 # RoblockLLy
-Source code of RoblockLLy, an educational robotics simulator based on Unity and UBlockly. This version of the simulator can be accessed through the following [link](roblocklly.github.io/RoblockLLy-23-24/).
+Source code of RoblockLLy, an educational robotics simulator based on Unity and UBlockly. This version of the simulator can be accessed through the following [link](https://roblocklly.github.io/RoblockLLy-23-24/).
 
 ![RoblockLLy](img/RoblockLLy-Logo.jpg)
 
