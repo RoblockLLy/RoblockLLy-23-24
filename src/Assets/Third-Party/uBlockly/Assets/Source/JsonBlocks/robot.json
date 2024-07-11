@@ -1,0 +1,55 @@
+[
+    {
+      "type": "robot_1",
+      "message0": "Robot 1",
+      "output": "String"
+    },
+    {
+      "type": "robot_2",
+      "message0": "Robot 2",
+      "output": "String"
+    },
+    {
+      "type": "robot_3",
+      "message0": "Robot 3",
+      "output": "String"
+    },
+    {
+      "type": "robot_4",
+      "message0": "Robot 4",
+      "output": "String"
+    },
+    {
+      "type": "robot_5",
+      "message0": "Robot 5",
+      "output": "String"
+    },
+    {
+      "type": "robot_6",
+      "message0": "Robot 6",
+      "output": "String"
+    },
+    {
+      "type": "robot_7",
+      "message0": "Robot 7",
+      "output": "String"
+    }
+    ,
+    {
+      "type": "robot_8",
+      "message0": "Robot 8",
+      "output": "String"
+    }
+    ,
+    {
+      "type": "robot_9",
+      "message0": "Robot 9",
+      "output": "String"
+    }
+    ,
+    {
+      "type": "robot_10",
+      "message0": "Robot 10",
+      "output": "String"
+    }
+]

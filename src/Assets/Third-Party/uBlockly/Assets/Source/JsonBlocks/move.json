@@ -1,0 +1,210 @@
+[
+  {
+    "type": "move_robot_forward",
+    "message0": "%{BKY_MOVE_ROBOT} %1 %{BKY_MOVE_ROBOT_FORWARD} with a speed of %2",
+    "args0": [
+        {
+            "type": "input_value",
+            "name": "ID",
+            "check": "String"
+        },
+      {
+        "type": "field_number",
+        "name": "SPEED",
+        "value": 1,
+        "min": 1,
+        "max": 5,
+        "int": true
+      }
+    ],
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "move_robot_backward",
+    "message0": "%{BKY_MOVE_ROBOT} %1 %{BKY_MOVE_ROBOT_BACKWARD} with a speed of %2",
+    "args0": [
+        {
+            "type": "input_value",
+            "name": "ID",
+            "check": "String"
+        },
+        {
+          "type": "field_number",
+          "name": "SPEED",
+          "value": 1,
+          "min": 1,
+          "max": 5,
+          "int": true
+        }
+    ],
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "move_robot_forward_blocks",
+    "message0": "%{BKY_MOVE_ROBOT} %1 %{BKY_MOVE_ROBOT_FORWARD} with a speed of %2, %3 block(s)",
+    "args0": [
+        {
+            "type": "input_value",
+            "name": "ID",
+            "check": "String"
+        },
+        {
+          "type": "field_number",
+          "name": "SPEED",
+          "value": 1,
+          "min": 1,
+          "max": 5,
+          "int": true
+        },
+        {
+          "type": "field_number",
+          "name": "DISTANCE",
+          "value": 1,
+          "min": 1,
+          "int": true
+        }
+    ],
+    "previousStatement": null,
+    "nextStatement": null
+  },{
+    "type": "move_robot_backward_blocks",
+    "message0": "%{BKY_MOVE_ROBOT} %1 %{BKY_MOVE_ROBOT_BACKWARD} with a speed of %2, %3 block(s)",
+    "args0": [
+        {
+            "type": "input_value",
+            "name": "ID",
+            "check": "String"
+        },
+        {
+          "type": "field_number",
+          "name": "SPEED",
+          "value": 1,
+          "min": 1,
+          "max": 5,
+          "int": true
+        },
+        {
+          "type": "field_number",
+          "name": "DISTANCE",
+          "value": 1,
+          "min": 1,
+          "int": true
+        }
+    ],
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+    "type": "move_robot_forward_time",
+    "message0": "%{BKY_MOVE_ROBOT} %1 %{BKY_MOVE_ROBOT_FORWARD} with a speed of %2, %3 seconds",
+    "args0": [
+        {
+            "type": "input_value",
+            "name": "ID",
+            "check": "String"
+        },
+        {
+          "type": "field_number",
+          "name": "SPEED",
+          "value": 1,
+          "min": 1,
+          "max": 5,
+          "int": true
+        },
+        {
+            "type": "field_number",
+            "name": "TIME",
+            "value": 1,
+            "min": 1,
+            "max": 60,
+            "int": true
+        }
+    ],
+    "previousStatement": null,
+    "nextStatement": null
+},
+{
+    "type": "move_robot_backward_time",
+    "message0": "%{BKY_MOVE_ROBOT} %1 %{BKY_MOVE_ROBOT_BACKWARD} with a speed of %2, %3 seconds",
+    "args0": [
+        {
+            "type": "input_value",
+            "name": "ID",
+            "check": "String"
+        },
+        {
+          "type": "field_number",
+          "name": "SPEED",
+          "value": 1,
+          "min": 1,
+          "max": 5,
+          "int": true
+        },
+        {
+            "type": "field_number",
+            "name": "TIME",
+            "value": 1,
+            "min": 1,
+            "max": 60,
+            "int": true
+        }
+    ],
+    "previousStatement": null,
+    "nextStatement": null
+},
+{
+    "type": "move_turn_robot",
+    "message0": "%{BKY_TURN_ROBOT} %1 %2",
+    "args0": [
+        {
+            "type": "input_value",
+            "name": "ID",
+            "check": "String"
+        },
+        {
+            "type": "field_dropdown",
+            "name": "DIRECTION",
+            "options": [
+              ["%{BKY_TURN_ROBOT_RIGHT}", "RIGHT"],
+              ["%{BKY_TURN_ROBOT_LEFT}", "LEFT"]
+            ]
+        }
+    ],
+    "previousStatement": null,
+    "nextStatement": null
+},
+{
+    "type": "move_turn_robot_angle",
+    "message0": "%{BKY_TURN_ROBOT} %1 %2 %{BKY_TURN_ANGLE}",
+    "args0": [
+        {
+          "type": "input_value",
+          "name": "ID",
+          "check": "String"
+        },
+        {
+          "type": "field_angle",
+          "name": "ANGLE",
+          "angle": 0,
+          "gap": 1
+        }
+    ],
+    "previousStatement": null,
+    "nextStatement": null
+  },
+  {
+      "type": "move_stop_robot",
+      "message0": "Stop robot %1",
+      "args0": [
+        {
+            "type": "input_value",
+            "name": "ID",
+            "check": "String"
+        }
+      ],
+      "previousStatement": null,
+      "nextStatement": null
+  }
+]

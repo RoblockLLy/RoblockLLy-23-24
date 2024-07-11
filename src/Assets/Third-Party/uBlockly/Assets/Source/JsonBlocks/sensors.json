@@ -1,0 +1,187 @@
+[
+  {
+    "type": "sensors_touch_contact",
+    "message0": "%1 's %2 contact sensor detects a hit",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "ID",
+        "check": "String"
+      },
+        {
+            "type": "field_dropdown",
+            "name": "POSITION",
+            "options": [
+              ["%{BKY_TOUCH_SENSOR_FRONT_RIGHT}", "front right"],
+              ["%{BKY_TOUCH_SENSOR_FRONT_LEFT}", "front left"],
+              ["%{BKY_TOUCH_SENSOR_FRONT}", "front"],
+              ["%{BKY_TOUCH_SENSOR_RIGHT}", "right"],
+              ["%{BKY_TOUCH_SENSOR_LEFT}", "left"],
+              ["%{BKY_TOUCH_SENSOR_BACK}", "back"]
+            ]
+        }
+    ],
+    "output": "Boolean"
+  },
+  {
+    "type": "sensors_touch_not_contact",
+    "message0": "%1 's %2 contact sensor does not detect a hit",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "ID",
+        "check": "String"
+    },
+        {
+            "type": "field_dropdown",
+            "name": "POSITION",
+            "options": [
+              ["%{BKY_TOUCH_SENSOR_FRONT_RIGHT}", "front right"],
+              ["%{BKY_TOUCH_SENSOR_FRONT_LEFT}", "front left"],
+              ["%{BKY_TOUCH_SENSOR_FRONT}", "front"],
+              ["%{BKY_TOUCH_SENSOR_RIGHT}", "right"],
+              ["%{BKY_TOUCH_SENSOR_LEFT}", "left"],
+              ["%{BKY_TOUCH_SENSOR_BACK}", "back"]
+            ]
+        }
+    ],
+    "output": "Boolean"
+  },
+  {
+    "type": "sensors_ir_detect_white",
+    "message0": "%1 's %2 infrared sensor detects white",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "ID",
+        "check": "String"
+    },
+        {
+            "type": "field_dropdown",
+            "name": "POSITION",
+            "options": [
+              ["%{BKY_TOUCH_SENSOR_FRONT_RIGHT}", "front right"],
+              ["%{BKY_TOUCH_SENSOR_FRONT_LEFT}", "front left"],
+              ["%{BKY_TOUCH_SENSOR_FRONT}", "front"],
+              ["%{BKY_TOUCH_SENSOR_RIGHT}", "right"],
+              ["%{BKY_TOUCH_SENSOR_LEFT}", "left"],
+              ["%{BKY_TOUCH_SENSOR_BACK}", "back"]
+            ]
+        }
+    ],
+    "output": "Boolean"
+  },
+  {
+    "type": "sensors_ir_detect_black",
+    "message0": "%1 's %2 infrared sensor detects black",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "ID",
+        "check": "String"
+    },
+        {
+            "type": "field_dropdown",
+            "name": "POSITION",
+            "options": [
+              ["%{BKY_TOUCH_SENSOR_FRONT_RIGHT}", "front right"],
+              ["%{BKY_TOUCH_SENSOR_FRONT_LEFT}", "front left"],
+              ["%{BKY_TOUCH_SENSOR_FRONT}", "front"],
+              ["%{BKY_TOUCH_SENSOR_RIGHT}", "right"],
+              ["%{BKY_TOUCH_SENSOR_LEFT}", "left"],
+              ["%{BKY_TOUCH_SENSOR_BACK}", "back"]
+            ]
+        }
+    ],
+    "output": "Boolean"
+  },
+  {
+    "type": "sensors_color_detect_colors",
+    "message0": "%1 's %2 color sensor detects %3",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "ID",
+        "check": "String"
+    },
+      {
+        "type": "field_dropdown",
+        "name": "POSITION",
+        "options": [
+          ["%{BKY_TOUCH_SENSOR_FRONT_RIGHT}", "front right"],
+          ["%{BKY_TOUCH_SENSOR_FRONT_LEFT}", "front left"],
+          ["%{BKY_TOUCH_SENSOR_FRONT}", "front"],
+          ["%{BKY_TOUCH_SENSOR_RIGHT}", "right"],
+          ["%{BKY_TOUCH_SENSOR_LEFT}", "left"],
+          ["%{BKY_TOUCH_SENSOR_BACK}", "back"]
+        ]
+      },
+      {
+        "type": "field_dropdown",
+        "name": "COLOR",
+        "options": [
+          ["%{BKY_RED}", "Red"],
+          ["%{BKY_BLUE}", "Blue"],
+          ["%{BKY_GREEN}", "Green"],
+          ["%{BKY_YELLOW}", "Yellow"]
+        ]
+      }
+    ],
+    "output": "Boolean"
+  },
+  {
+    "type": "sensors_us_distance",
+    "message0": "%1 's %2 ultrasound sensor distance to wall",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "ID",
+        "check": "String"
+    },
+        {
+            "type": "field_dropdown",
+            "name": "POSITION",
+            "options": [
+              ["%{BKY_TOUCH_SENSOR_FRONT_RIGHT}", "front right"],
+              ["%{BKY_TOUCH_SENSOR_FRONT_LEFT}", "front left"],
+              ["%{BKY_TOUCH_SENSOR_FRONT}", "front"],
+              ["%{BKY_TOUCH_SENSOR_RIGHT}", "right"],
+              ["%{BKY_TOUCH_SENSOR_LEFT}", "left"],
+              ["%{BKY_TOUCH_SENSOR_BACK}", "back"]
+            ]
+        }
+    ],
+    "output": "float"
+  },
+  {
+    "type": "sensors_gyroscope_still",
+    "message0": "%1 's gyroscope sensor is still",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "ID",
+        "check": "String"
+    }],
+    "output": "Boolean"
+  },
+  {
+    "type": "sensors_gyroscope_direction",
+    "message0": "%1 's gyroscope sensor tilts %2",
+    "args0": [
+      {
+        "type": "input_value",
+        "name": "ID",
+        "check": "String"
+    },
+        {
+            "type": "field_dropdown",
+            "name": "DIRECTION",
+            "options": [
+              ["%{BKY_GYROSCOPE_SENSOR_FORWARD}", "forward"],
+              ["%{BKY_GYROSCOPE_SENSOR_BACKWARD}", "backwards"]
+            ]
+        }
+    ],
+    "output": "Boolean"
+  }
+]

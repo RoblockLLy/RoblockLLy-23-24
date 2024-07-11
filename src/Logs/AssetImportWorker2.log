@@ -1,0 +1,926 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.27f1 (73effa14754f) revision 7598074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'es' Physical Memory: 32710 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/EPH20/Roblocklly_EPH
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49231
+Successfully changed project path to: C:/Users/EPH20/Roblocklly_EPH
+C:/Users/EPH20/Roblocklly_EPH
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36616] Host "[IP] 192.168.1.210 [Port] 0 [Flags] 2 [Guid] 1294288778 [EditorId] 1294288778 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UVHE5H2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [36616] Host "[IP] 192.168.1.210 [Port] 0 [Flags] 2 [Guid] 1294288778 [EditorId] 1294288778 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UVHE5H2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 12.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/EPH20/Roblocklly_EPH/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x24c9)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014880 seconds.
+- Loaded All Assemblies, in  0.400 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.290 seconds
+Domain Reload Profiling: 687ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (127ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (290ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (226ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.764 seconds
+Refreshing native plugins compatible for Editor in 5.27 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.949 seconds
+Domain Reload Profiling: 1709ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (510ms)
+		LoadAssemblies (377ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (194ms)
+				TypeCache.ScanAssembly (179ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (949ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (784ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (580ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4852 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.0 MB). Loaded Objects now: 5309.
+Memory consumption went from 182.7 MB to 181.7 MB.
+Total: 3.749800 ms (FindLiveObjects: 0.345500 ms CreateObjectMapping: 0.254400 ms MarkObjects: 2.588200 ms  DeleteObjects: 0.560700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 756448.794613 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Corner Full Center Wall.prefab
+  artifactKey: Guid(e7b4e7d2b05a18d4aaef74385c10c710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Corner Full Center Wall.prefab using Guid(e7b4e7d2b05a18d4aaef74385c10c710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9ce196d5b4a91417e80e0c6e3ccd47') in 0.143114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 4.431526 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Corner Half Center Wall.prefab
+  artifactKey: Guid(385d3dbf2e0f37749b1dafe0f630629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Corner Half Center Wall.prefab using Guid(385d3dbf2e0f37749b1dafe0f630629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5916a76d424be2d1e03f8f1a5fda0a') in 0.017149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 2.542193 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Cross Full Center Wall.prefab
+  artifactKey: Guid(f36301ff75a4f7d4db698d137ab99859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Cross Full Center Wall.prefab using Guid(f36301ff75a4f7d4db698d137ab99859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e45d1d7ae86a68ee0177dc7e0ec27e0') in 0.019613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 2.600427 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Cross Half Center Wall.prefab
+  artifactKey: Guid(cab90d65a6c65c24285188e83f423019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Cross Half Center Wall.prefab using Guid(cab90d65a6c65c24285188e83f423019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1140eb9a71525a2038e93dbc927699a') in 0.015368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 2.108768 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Double Full Edge Wall.prefab
+  artifactKey: Guid(01cf7d5c683ca26458021f0317a2eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Double Full Edge Wall.prefab using Guid(01cf7d5c683ca26458021f0317a2eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa247770514cabe3014400bf50ae2c6') in 0.015856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 2.394620 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Double Half Edge Wall.prefab
+  artifactKey: Guid(e09be974064c54c4f9b8866142e93e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Double Half Edge Wall.prefab using Guid(e09be974064c54c4f9b8866142e93e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dc370e60195ac146c0534bf0427305') in 0.016895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 1.918413 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Full Block.prefab
+  artifactKey: Guid(874d7959bac83ed45bc3d33b457750b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Full Block.prefab using Guid(874d7959bac83ed45bc3d33b457750b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93afa725c803e465fbaaf7c2b7b5a32a') in 0.016968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 1.972600 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Full Center Wall.prefab
+  artifactKey: Guid(9aab13d7e37f11345adffe1d03774caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Full Center Wall.prefab using Guid(9aab13d7e37f11345adffe1d03774caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5e349bd02610468f59a45c540acb41') in 0.014392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 2.187292 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Full Edge Corner Wall.prefab
+  artifactKey: Guid(0e0c5f157efaf9245853ea7081766d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Full Edge Corner Wall.prefab using Guid(0e0c5f157efaf9245853ea7081766d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5416f12d082e82bba5822f709ecfe98a') in 0.016397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 2.339437 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Full Edge Wall.prefab
+  artifactKey: Guid(eec37bda98f1788479239f51f783a11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Full Edge Wall.prefab using Guid(eec37bda98f1788479239f51f783a11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d96f10103312d63667300705c04406') in 0.020693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 4.115616 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Half Edge Corner Wall.prefab
+  artifactKey: Guid(3536984e94e14b443b35266d49cd12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Half Edge Corner Wall.prefab using Guid(3536984e94e14b443b35266d49cd12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf2a79472e4700f31538c34a8e65ee0') in 0.017897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 4.648036 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Half Edge Wall.prefab
+  artifactKey: Guid(d74d99366e35b0648bf9b30738a9aa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Half Edge Wall.prefab using Guid(d74d99366e35b0648bf9b30738a9aa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de15088197af0bdb4d085b9b2d2b9767') in 0.016099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 3.358634 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Triple Corner Full Center Wall.prefab
+  artifactKey: Guid(22a9551c541f58a4599569c3842a7ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Triple Corner Full Center Wall.prefab using Guid(22a9551c541f58a4599569c3842a7ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85067cc44d212ed0c36abb56ebed9e71') in 0.017326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 2.002710 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Triple Corner Full Edge Wall.prefab
+  artifactKey: Guid(2d70a7eb2020b0448aaf12349a449dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Triple Corner Full Edge Wall.prefab using Guid(2d70a7eb2020b0448aaf12349a449dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35be46ec830fb13d54adbb480670b98') in 0.017066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 2.504554 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Triple Corner Half Center Wall.prefab
+  artifactKey: Guid(6d747a5ad7e36154da0e5aa50f92240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Triple Corner Half Center Wall.prefab using Guid(6d747a5ad7e36154da0e5aa50f92240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb1c887d8cd412ed8f1014c6278c5c0') in 0.015472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 2.049406 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Triple Corner Half Edge Wall.prefab
+  artifactKey: Guid(f175d12e69234804d89800b5329ac1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Triple Corner Half Edge Wall.prefab using Guid(f175d12e69234804d89800b5329ac1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4decfef21c5304f276036f91fc6e48') in 0.018157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 2.547143 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Triple Full Edge Wall.prefab
+  artifactKey: Guid(76a1977210329984fa31920d5d9ed83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Triple Full Edge Wall.prefab using Guid(76a1977210329984fa31920d5d9ed83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc2e8298f3906203bd5c3e9972c9b5d') in 0.017272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 2.298876 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Triple Half Edge Wall.prefab
+  artifactKey: Guid(cc47cad6e9537a241b5994a93c9f6cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Triple Half Edge Wall.prefab using Guid(cc47cad6e9537a241b5994a93c9f6cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79dfa8f2326a64777ba238c3690e528a') in 0.016569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 6.688921 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Corner Full Center Wall.prefab
+  artifactKey: Guid(e7b4e7d2b05a18d4aaef74385c10c710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Corner Full Center Wall.prefab using Guid(e7b4e7d2b05a18d4aaef74385c10c710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c728e4840c64840027b6209e8a799d') in 0.019600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 5.115373 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Corner Half Center Wall.prefab
+  artifactKey: Guid(385d3dbf2e0f37749b1dafe0f630629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Corner Half Center Wall.prefab using Guid(385d3dbf2e0f37749b1dafe0f630629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9cb3c5ba46b49f9b2789e5018eba02') in 0.015860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 4.611051 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Cross Full Center Wall.prefab
+  artifactKey: Guid(f36301ff75a4f7d4db698d137ab99859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Cross Full Center Wall.prefab using Guid(f36301ff75a4f7d4db698d137ab99859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bcd3c1e20fe295818a96780511a70d') in 0.017590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 3.921508 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Cross Half Center Wall.prefab
+  artifactKey: Guid(cab90d65a6c65c24285188e83f423019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Cross Half Center Wall.prefab using Guid(cab90d65a6c65c24285188e83f423019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f845c2b184abe1147a9a9c0b9dd5a38') in 0.016634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 4.776571 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Double Full Edge Wall.prefab
+  artifactKey: Guid(01cf7d5c683ca26458021f0317a2eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Double Full Edge Wall.prefab using Guid(01cf7d5c683ca26458021f0317a2eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79dffc409d873b397b24130b56aa5bb3') in 0.015615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 4.306806 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Double Half Edge Wall.prefab
+  artifactKey: Guid(e09be974064c54c4f9b8866142e93e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Double Half Edge Wall.prefab using Guid(e09be974064c54c4f9b8866142e93e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da74b3540d1320433d3dfd07072be33') in 0.015638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 15.722279 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Full Block.prefab
+  artifactKey: Guid(874d7959bac83ed45bc3d33b457750b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Full Block.prefab using Guid(874d7959bac83ed45bc3d33b457750b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c367efc167b65f6ff23e609f8c954a') in 0.014745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 8.581884 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Full Center Wall.prefab
+  artifactKey: Guid(9aab13d7e37f11345adffe1d03774caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Full Center Wall.prefab using Guid(9aab13d7e37f11345adffe1d03774caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b8afafc28150faf9a1fb1c8fe3c56d') in 0.019487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 6.794429 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Full Edge Corner Wall.prefab
+  artifactKey: Guid(0e0c5f157efaf9245853ea7081766d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Full Edge Corner Wall.prefab using Guid(0e0c5f157efaf9245853ea7081766d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43da2c16b09b25a14e049f08ca50bf0f') in 0.018008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 4.768121 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Full Edge Wall.prefab
+  artifactKey: Guid(eec37bda98f1788479239f51f783a11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Full Edge Wall.prefab using Guid(eec37bda98f1788479239f51f783a11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25141edbb206a85560070b0b3840f84b') in 0.014206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 9.147687 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Half Edge Corner Wall.prefab
+  artifactKey: Guid(3536984e94e14b443b35266d49cd12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Half Edge Corner Wall.prefab using Guid(3536984e94e14b443b35266d49cd12a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1f9c0044917fdc6f62e7474315895a') in 0.015500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 4.951011 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Half Edge Wall.prefab
+  artifactKey: Guid(d74d99366e35b0648bf9b30738a9aa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Half Edge Wall.prefab using Guid(d74d99366e35b0648bf9b30738a9aa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c4a348484a338f8257278841251f91') in 0.015244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 5.280379 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Triple Corner Full Center Wall.prefab
+  artifactKey: Guid(22a9551c541f58a4599569c3842a7ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Triple Corner Full Center Wall.prefab using Guid(22a9551c541f58a4599569c3842a7ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0485c6018570e56b7e7721323c224ac') in 0.019395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 4.181373 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Triple Corner Full Edge Wall.prefab
+  artifactKey: Guid(2d70a7eb2020b0448aaf12349a449dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Triple Corner Full Edge Wall.prefab using Guid(2d70a7eb2020b0448aaf12349a449dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7114771d51145e84da0dcee065afabe0') in 0.019723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 4.585845 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Triple Corner Half Center Wall.prefab
+  artifactKey: Guid(6d747a5ad7e36154da0e5aa50f92240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Triple Corner Half Center Wall.prefab using Guid(6d747a5ad7e36154da0e5aa50f92240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd749d06ad4682e0a616f79601de9e7e7') in 0.019449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 3.794679 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Triple Corner Half Edge Wall.prefab
+  artifactKey: Guid(f175d12e69234804d89800b5329ac1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Triple Corner Half Edge Wall.prefab using Guid(f175d12e69234804d89800b5329ac1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ca11a580897cbf411034442b757f4c') in 0.016356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 3.811596 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Triple Full Edge Wall.prefab
+  artifactKey: Guid(76a1977210329984fa31920d5d9ed83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Triple Full Edge Wall.prefab using Guid(76a1977210329984fa31920d5d9ed83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f23974259b9e15e6b8622a0abcb693e') in 0.015465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 9.101626 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Triple Half Edge Wall.prefab
+  artifactKey: Guid(cc47cad6e9537a241b5994a93c9f6cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Triple Half Edge Wall.prefab using Guid(cc47cad6e9537a241b5994a93c9f6cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07caf05697dd3026dab2f09a9c03f11b') in 0.016011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 8.551383 seconds.
+  path: Assets/Prefabs/Levels/Interactables/Flag.prefab
+  artifactKey: Guid(e2375089b0ea22e4a8eed73fa361c062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Interactables/Flag.prefab using Guid(e2375089b0ea22e4a8eed73fa361c062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9748209d1b6ba36f3c4edeaabdc1d2f') in 0.026492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 4.356724 seconds.
+  path: Assets/Prefabs/Levels/Interactables/Flag.prefab
+  artifactKey: Guid(e2375089b0ea22e4a8eed73fa361c062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Interactables/Flag.prefab using Guid(e2375089b0ea22e4a8eed73fa361c062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf1e9f7139a2487845680233dac3eea') in 0.019248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 2.901122 seconds.
+  path: Assets/Prefabs/Levels/Interactables/Lifting Door.prefab
+  artifactKey: Guid(8af15b4967de7014396b91deab675e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Interactables/Lifting Door.prefab using Guid(8af15b4967de7014396b91deab675e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1c70751951d83180532926a44e78a6') in 0.014777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 3.443790 seconds.
+  path: Assets/Prefabs/Levels/Interactables/Lifting Door.prefab
+  artifactKey: Guid(8af15b4967de7014396b91deab675e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Interactables/Lifting Door.prefab using Guid(8af15b4967de7014396b91deab675e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdaf1732277fcec3444a8365ffc1356b') in 0.018267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 3.048181 seconds.
+  path: Assets/Prefabs/Levels/Interactables/Moving Platform.prefab
+  artifactKey: Guid(726371a13439f8649b5a810c70d2d45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Interactables/Moving Platform.prefab using Guid(726371a13439f8649b5a810c70d2d45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18864d245d58fca4256b42d7d19fa2b7') in 0.019269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 3.776536 seconds.
+  path: Assets/Prefabs/Levels/Interactables/Moving Platform.prefab
+  artifactKey: Guid(726371a13439f8649b5a810c70d2d45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Interactables/Moving Platform.prefab using Guid(726371a13439f8649b5a810c70d2d45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e7183ad2d1206e9be67b6cc759a89b') in 0.015435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 3.278077 seconds.
+  path: Assets/Prefabs/Levels/Interactables/Pressure Plate.prefab
+  artifactKey: Guid(38b682dc78e24a741a6b78f8d42c12b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Interactables/Pressure Plate.prefab using Guid(38b682dc78e24a741a6b78f8d42c12b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f07f5cf85fffe73109338ead9d9b1f0') in 0.010797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 5.303660 seconds.
+  path: Assets/Prefabs/Levels/Interactables/Pressure Plate.prefab
+  artifactKey: Guid(38b682dc78e24a741a6b78f8d42c12b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Interactables/Pressure Plate.prefab using Guid(38b682dc78e24a741a6b78f8d42c12b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9fe7e00dc4f0c91107f23e9baf0841') in 0.012510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 6.039553 seconds.
+  path: Assets/Prefabs/Levels/Miscellaneous/Spawnpoint.prefab
+  artifactKey: Guid(e6b6e47aec6964749b66fc138f5f3e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Miscellaneous/Spawnpoint.prefab using Guid(e6b6e47aec6964749b66fc138f5f3e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc705375a123c485cde0f9a4a0e21d6') in 0.006097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 2.975015 seconds.
+  path: Assets/Prefabs/Levels/Miscellaneous/Spawnpoint.prefab
+  artifactKey: Guid(e6b6e47aec6964749b66fc138f5f3e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Miscellaneous/Spawnpoint.prefab using Guid(e6b6e47aec6964749b66fc138f5f3e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7fbc0120e6fa61b676c066ce06d2e2') in 0.004816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 3.866675 seconds.
+  path: Assets/Prefabs/Levels/Miscellaneous/Paths/Corner Path.prefab
+  artifactKey: Guid(5c91f523f484b184d9337da217964076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Miscellaneous/Paths/Corner Path.prefab using Guid(5c91f523f484b184d9337da217964076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d243cb223589fc3140ecca97150d75') in 0.016706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 4.495430 seconds.
+  path: Assets/Prefabs/Levels/Miscellaneous/Paths/Corner Path.prefab
+  artifactKey: Guid(5c91f523f484b184d9337da217964076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Miscellaneous/Paths/Corner Path.prefab using Guid(5c91f523f484b184d9337da217964076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254f855b061db61fd63332631d7da4b3') in 0.017640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 2.432142 seconds.
+  path: Assets/Prefabs/Levels/Miscellaneous/Paths/Cross Path.prefab
+  artifactKey: Guid(6dda255bc32acd04a94aa7c767c64dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Miscellaneous/Paths/Cross Path.prefab using Guid(6dda255bc32acd04a94aa7c767c64dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695aebedd2b2ae3326b02e2f51eccb40') in 0.016290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 2.847178 seconds.
+  path: Assets/Prefabs/Levels/Miscellaneous/Paths/Cross Path.prefab
+  artifactKey: Guid(6dda255bc32acd04a94aa7c767c64dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Miscellaneous/Paths/Cross Path.prefab using Guid(6dda255bc32acd04a94aa7c767c64dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abb45e156f8d8b5249713848b9f5019') in 0.017445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 2.269105 seconds.
+  path: Assets/Prefabs/Levels/Miscellaneous/Paths/Straight Path.prefab
+  artifactKey: Guid(804ef884d5fbdd648af94e9124398d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Miscellaneous/Paths/Straight Path.prefab using Guid(804ef884d5fbdd648af94e9124398d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a48e3fbd3ee0dc13024011d81c464d0') in 0.014782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 5.771303 seconds.
+  path: Assets/Prefabs/Levels/Miscellaneous/Paths/Straight Path.prefab
+  artifactKey: Guid(804ef884d5fbdd648af94e9124398d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Miscellaneous/Paths/Straight Path.prefab using Guid(804ef884d5fbdd648af94e9124398d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7ecada531e63113593804957f3098d') in 0.016700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 2.468653 seconds.
+  path: Assets/Prefabs/Levels/Miscellaneous/Paths/Triple Path.prefab
+  artifactKey: Guid(2a71b47c43ee6ac4bb00a0699799d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Miscellaneous/Paths/Triple Path.prefab using Guid(2a71b47c43ee6ac4bb00a0699799d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937990194fcf9aad88850ba0af53911c') in 0.015849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 2.740242 seconds.
+  path: Assets/Prefabs/Levels/Miscellaneous/Paths/Triple Path.prefab
+  artifactKey: Guid(2a71b47c43ee6ac4bb00a0699799d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Miscellaneous/Paths/Triple Path.prefab using Guid(2a71b47c43ee6ac4bb00a0699799d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8cd585bc08e92d15cf0b2f998b0e5e') in 0.016537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.631 seconds
+Refreshing native plugins compatible for Editor in 5.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.504 seconds
+Domain Reload Profiling: 2129ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1504ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (753ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (546ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4800 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.0 MB). Loaded Objects now: 5324.
+Memory consumption went from 174.9 MB to 173.9 MB.
+Total: 4.224800 ms (FindLiveObjects: 0.361800 ms CreateObjectMapping: 0.311300 ms MarkObjects: 2.902300 ms  DeleteObjects: 0.648400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.609 seconds
+Refreshing native plugins compatible for Editor in 6.42 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.697 seconds
+Domain Reload Profiling: 2302ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (414ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1698ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (888ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (606ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 5.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4800 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (0.9 MB). Loaded Objects now: 5327.
+Memory consumption went from 174.8 MB to 173.9 MB.
+Total: 4.334200 ms (FindLiveObjects: 0.373300 ms CreateObjectMapping: 0.296000 ms MarkObjects: 2.859200 ms  DeleteObjects: 0.803900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 142.512540 seconds.
+  path: Assets/Scenes/Menus/4-LevelCreator.unity
+  artifactKey: Guid(4833dc06651978d47922d95c5fa2aeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menus/4-LevelCreator.unity using Guid(4833dc06651978d47922d95c5fa2aeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd933395f441276166398918e25d04099') in 0.001881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.479312 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Half Center Wall.prefab
+  artifactKey: Guid(3e2675e8ad064324183270a467f73476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Half Center Wall.prefab using Guid(3e2675e8ad064324183270a467f73476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fc73c00b62c70d66943a97dddc376f') in 0.080576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 4.872486 seconds.
+  path: Assets/Prefabs/Levels/Blocks/Half Center Wall.prefab
+  artifactKey: Guid(3e2675e8ad064324183270a467f73476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Blocks/Half Center Wall.prefab using Guid(3e2675e8ad064324183270a467f73476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010320df6e0bf6f1ca7f472c42625205') in 0.015537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.602 seconds
+Refreshing native plugins compatible for Editor in 5.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.621 seconds
+Domain Reload Profiling: 2218ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (303ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1621ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (804ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (592ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4800 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.0 MB). Loaded Objects now: 5330.
+Memory consumption went from 174.9 MB to 173.9 MB.
+Total: 4.687700 ms (FindLiveObjects: 0.467900 ms CreateObjectMapping: 0.425200 ms MarkObjects: 3.066000 ms  DeleteObjects: 0.727300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.583 seconds
+Refreshing native plugins compatible for Editor in 6.11 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.717 seconds
+Domain Reload Profiling: 2295ms
+	BeginReloadAssembly (182ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (393ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1718ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (915ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (655ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 6.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4800 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.0 MB). Loaded Objects now: 5333.
+Memory consumption went from 174.8 MB to 173.9 MB.
+Total: 4.499800 ms (FindLiveObjects: 0.437200 ms CreateObjectMapping: 0.362200 ms MarkObjects: 3.063800 ms  DeleteObjects: 0.635300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10 unused Assets / (1.0 MB). Loaded Objects now: 5333.
+Memory consumption went from 100.8 MB to 99.8 MB.
+Total: 6.480100 ms (FindLiveObjects: 0.385400 ms CreateObjectMapping: 0.322900 ms MarkObjects: 5.123000 ms  DeleteObjects: 0.647000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
