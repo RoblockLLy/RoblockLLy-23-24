@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\EPH20\\Roblocklly_EPH\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\levels\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\levels\\interactables\\passive interactables\\elevatorinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\interactables\\passive interactables\\elevatorinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\levels\\managers\\levelcamerasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\managers\\levelcamerasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\levels\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\levels\\builder\\movingplatformblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LevelCamerasManager.cs",
               "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Managers\\LevelCamerasManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Managers\\LevelCamerasManager.cs",
@@ -43,20 +43,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LevelManager.cs",
               "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Managers\\LevelManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Managers\\LevelManager.cs",
               "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Managers\\LevelManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Levels\\Managers\\LevelManager.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAMwE8AAABYAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAMwE8AAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T19:19:40.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ElevatorInteractable.cs",
               "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Interactables\\Passive Interactables\\ElevatorInteractable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Interactables\\Passive Interactables\\ElevatorInteractable.cs",
