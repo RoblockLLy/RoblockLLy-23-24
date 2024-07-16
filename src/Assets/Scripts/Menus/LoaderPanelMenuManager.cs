@@ -5,9 +5,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class LoaderPanelMenuManager : MonoBehaviour {
-    public InputField codeInput;
+    public TMP_InputField codeInput;
 
     void Start() {
         

@@ -54,6 +54,6 @@
     "previousStatement": null,
     "nextStatement": null,
     "colour": "%{BKY_VARIABLES_HUE}",
-    "helpUrl": "%{BKY_VARIABLES_CHANGE_HELPURL}",
+    "helpUrl": "%{BKY_VARIABLES_CHANGE_HELPURL}"
   }
 ]

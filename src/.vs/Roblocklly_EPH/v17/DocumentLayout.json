@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\EPH20\\Roblocklly_EPH\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\levels\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\sensors\\colorsensormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sensors\\colorsensormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\levels\\interactables\\passive interactables\\elevatorinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\interactables\\passive interactables\\elevatorinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\levels\\managers\\levelcamerasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\managers\\levelcamerasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\third-party\\ublockly\\assets\\source\\script\\codedb\\lua\\generators\\procedure_lua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\third-party\\ublockly\\assets\\source\\script\\codedb\\lua\\generators\\procedure_lua.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|c:\\users\\eph20\\roblocklly_eph\\assets\\scripts\\levels\\builder\\movingplatformblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levels\\builder\\movingplatformblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|C:\\Users\\EPH20\\Roblocklly_EPH\\assets\\third-party\\ublockly\\assets\\source\\script\\codedb\\csharp\\interpreters\\variables_csharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\third-party\\ublockly\\assets\\source\\script\\codedb\\csharp\\interpreters\\variables_csharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|C:\\Users\\EPH20\\Roblocklly_EPH\\assets\\third-party\\ublockly\\assets\\source\\script\\codedb\\csharp\\interpreters\\procedure_csharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\third-party\\ublockly\\assets\\source\\script\\codedb\\csharp\\interpreters\\procedure_csharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|C:\\Users\\EPH20\\Roblocklly_EPH\\assets\\third-party\\ublockly\\assets\\source\\script\\codedb\\csharp\\csharpinterpreter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB1B93C-DB13-5AD1-E3D3-4BECD1DAF039}|Assembly-CSharp.csproj|solutionrelative:assets\\third-party\\ublockly\\assets\\source\\script\\codedb\\csharp\\csharpinterpreter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,32 +34,19 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LevelCamerasManager.cs",
-              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Managers\\LevelCamerasManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Managers\\LevelCamerasManager.cs",
-              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Managers\\LevelCamerasManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Levels\\Managers\\LevelCamerasManager.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAMwCMAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T19:38:57.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LevelManager.cs",
-              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Managers\\LevelManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Managers\\LevelManager.cs",
-              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Managers\\LevelManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Levels\\Managers\\LevelManager.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAMwE8AAABYAAAA",
+              "Title": "ColorSensorManager.cs",
+              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Sensors\\ColorSensorManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Sensors\\ColorSensorManager.cs",
+              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Sensors\\ColorSensorManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Sensors\\ColorSensorManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T19:19:40.084Z",
+              "WhenOpened": "2024-07-15T20:48:06.224Z",
               "EditorCaption": ""
             },
             {
@@ -62,23 +57,59 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Interactables\\Passive Interactables\\ElevatorInteractable.cs",
               "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Interactables\\Passive Interactables\\ElevatorInteractable.cs",
               "RelativeToolTip": "Assets\\Scripts\\Levels\\Interactables\\Passive Interactables\\ElevatorInteractable.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAAAGkAAAAAAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T19:03:09.32Z",
+              "WhenOpened": "2024-07-15T20:07:16.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Procedure_Lua.cs",
+              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\Lua\\Generators\\Procedure_Lua.cs",
+              "RelativeDocumentMoniker": "Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\Lua\\Generators\\Procedure_Lua.cs",
+              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\Lua\\Generators\\Procedure_Lua.cs",
+              "RelativeToolTip": "Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\Lua\\Generators\\Procedure_Lua.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAqwDwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T19:34:01.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MovingPlatformBlock.cs",
-              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Builder\\MovingPlatformBlock.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Levels\\Builder\\MovingPlatformBlock.cs",
-              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Scripts\\Levels\\Builder\\MovingPlatformBlock.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Levels\\Builder\\MovingPlatformBlock.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAYAAAA",
+              "Title": "Variables_CSharp.cs",
+              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\CSharp\\Interpreters\\Variables_CSharp.cs",
+              "RelativeDocumentMoniker": "Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\CSharp\\Interpreters\\Variables_CSharp.cs",
+              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\CSharp\\Interpreters\\Variables_CSharp.cs",
+              "RelativeToolTip": "Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\CSharp\\Interpreters\\Variables_CSharp.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T19:26:56.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T19:22:36.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Procedure_CSharp.cs",
+              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\CSharp\\Interpreters\\Procedure_CSharp.cs",
+              "RelativeDocumentMoniker": "Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\CSharp\\Interpreters\\Procedure_CSharp.cs",
+              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\CSharp\\Interpreters\\Procedure_CSharp.cs",
+              "RelativeToolTip": "Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\CSharp\\Interpreters\\Procedure_CSharp.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T19:22:23.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CSharpInterpreter.cs",
+              "DocumentMoniker": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\CSharp\\CSharpInterpreter.cs",
+              "RelativeDocumentMoniker": "Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\CSharp\\CSharpInterpreter.cs",
+              "ToolTip": "C:\\Users\\EPH20\\Roblocklly_EPH\\Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\CSharp\\CSharpInterpreter.cs",
+              "RelativeToolTip": "Assets\\Third-Party\\uBlockly\\Assets\\Source\\Script\\CodeDB\\CSharp\\CSharpInterpreter.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAtwEIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T19:04:07.54Z"
             }
           ]
         }

@@ -2,13 +2,14 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class LevelExportManager : MonoBehaviour {
 
     public GameObject exportPanel;
-    public InputField exportText;
+    public TMP_InputField exportText;
     public LevelOptionsManager optionsManager;
     public GameObject levelBuild;
 
